@@ -67,6 +67,7 @@ body{
 
 #index_slides {
     z-index: 998;
+    margin-bottom: 10px;
 }
 
 #slogan {
@@ -114,6 +115,18 @@ body{
   width: 550px;
   margin-right: 10px;
 }
+
+#kaidun_famous_teacher {
+  width: 270px;
+  float: left;
+  margin-right: 10px;
+}
+
+#kaidun_month_star {
+  width: 270px;
+  float: left;
+}
+
 #main .right_bar{
   float: right;
   width: 200px;
@@ -127,9 +140,33 @@ body{
   color: #FFF;
 }
 
+.box h3 span {
+  display: block;
+  float: right;
+  font-size: 80%;
+}
+
+.center1 .box h3 {
+  background: #552F18;
+}
+
+#kaidun_news, #kaidun_activity {
+  width: 460px;
+}
+
 .box h3 .inner {
   padding: 5px;
   padding-left: 25px;
+}
+
+.box div.m{
+  padding: 9px;
+}
+
+.box div.m img{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .box ul {
