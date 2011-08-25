@@ -3,10 +3,13 @@
   clear: both;
   border: none;
 }
-body{
-  background: #FFFDE4;
+a{
+  color: #000;
 }
-#top_bar, #nav, #slogan, #main, #footer{
+body{
+  background: #FFF;
+}
+#container{
   margin: 0 auto;
   width: 970px;
 }
@@ -68,6 +71,11 @@ body{
 #index_slides {
     z-index: 998;
     margin-bottom: 10px;
+    height: 310px;
+}
+
+#index_slides .slides_container {
+  height: 310px;
 }
 
 #slogan {
@@ -108,28 +116,30 @@ body{
 #main .left_bar{
   float: left;
   width: 200px;
+  margin-left: 10px;
   margin-right: 10px;
 }
 #main .center1{
   float: left;
-  width: 550px;
+  width: 530px;
   margin-right: 10px;
 }
 
 #kaidun_famous_teacher {
-  width: 270px;
+  width: 260px;
   float: left;
   margin-right: 10px;
 }
 
 #kaidun_month_star {
-  width: 270px;
+  width: 260px;
   float: left;
 }
 
 #main .right_bar{
   float: right;
   width: 200px;
+  margin-right: 10px;
 
 }
 .box {
