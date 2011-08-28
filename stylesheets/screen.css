@@ -220,6 +220,15 @@ body{
   margin-bottom: 10px;
   position: relative;
 }
+
+.box a {
+  text-decoration: none;
+}
+
+.box a:hover {
+  margin-left: 2px;
+  text-decoration: underline;
+}
 .box em.icon {
   position: absolute;
   left: -2px;
@@ -265,6 +274,10 @@ body{
 
 .center1 .box ul {
   background: transparent;
+}
+
+.center1 .box h3 .inner span a {
+  color: #FFF;
 }
 
 
