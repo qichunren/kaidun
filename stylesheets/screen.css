@@ -98,7 +98,7 @@ body{
 #nav .inner{
   position: absolute;
   margin: 0 auto;
-  z-index: 999;
+  z-index: 0;
 }
 
 #index_slides {
@@ -151,7 +151,14 @@ body{
   text-align: center;
 }
 
-#main{}
+#kaidun_notices h3 {
+
+}
+
+#main{
+  position: relative;
+  z-index: 2;
+}
 .bar_connection {
   height: 40px;
   position: relative;
