@@ -262,6 +262,7 @@ body{
 
 .box ul {
   background: #FFF;
+  margin: 0 4px;
 }
 .box ul li {
   padding: 8px;
