@@ -151,10 +151,6 @@ body{
   text-align: center;
 }
 
-#kaidun_notices h3 {
-
-}
-
 #main{
   position: relative;
   z-index: 2;
@@ -215,9 +211,15 @@ body{
 }
 .box {
   margin-bottom: 10px;
+  position: relative;
+}
+.box em.icon {
+  position: absolute;
+  left: -2px;
+  top: -4px;
 }
 .box h3 {
-  background: #B0373C;
+  background-color: #B0373C;
   color: #FFF;
 }
 
@@ -227,21 +229,9 @@ body{
   font-size: 80%;
 }
 
-.center1 .box h3 {
-  background: #552F18;
-}
-
-.center1 .box ul {
-  background: transparent;
-}
-
-#kaidun_news, #kaidun_activity {
-  width: 460px;
-}
-
 .box h3 .inner {
   padding: 5px;
-  padding-left: 25px;
+  padding-left: 37px;
 }
 
 .box div.m{
@@ -260,6 +250,23 @@ body{
 .box ul li {
   padding: 8px;
   border-bottom: 1px dashed #BDBDBD;
+}
+
+.center1 .box h3 {
+  background: #552F18;
+}
+
+.center1 .box ul {
+  background: transparent;
+}
+
+
+#kaidun_notices {
+}
+
+
+#kaidun_news, #kaidun_activity {
+  width: 460px;
 }
 
 #company_partner li img {
