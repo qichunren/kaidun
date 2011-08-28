@@ -91,6 +91,11 @@ body{
   border-top: none;
 }
 
+#top_menus li a:hover {
+  padding-top: 15px;
+  color: #BDBDBD;
+}
+
 #nav{
   position: relative;
 }
