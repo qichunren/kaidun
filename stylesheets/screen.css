@@ -22,8 +22,19 @@ body{
 
 #style_choosing {
   margin-top: 5px;
+  width: 320px;
+  height: 30px;
+  position: relative;
 }
-
+#style_choosing .tip {
+  position: absolute;
+  bottom: -25px;
+  left: 120px;
+  z-index: 2;
+  background: #FFF;
+  padding: 3px;
+  border: 1px solid #BDBDBD;
+}
 #backto_home {
   float: left;
   margin-left: 20px;
