@@ -329,3 +329,8 @@ body{
   padding: 10px;
   text-align: center;
 }
+
+#footer .inner p {
+  padding: 10px;
+  font-size: 12px;
+}
