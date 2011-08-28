@@ -147,8 +147,15 @@ body{
 }
 
 #slogan .inner{
-  font-size: 25px;
   text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+#slogan .inner2 {
+  font: bold 26px "Lucida Grande";
+   color: #464646;
 }
 
 #main{
