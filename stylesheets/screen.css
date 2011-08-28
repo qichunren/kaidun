@@ -1,0 +1,310 @@
+.clear {
+  height: 0;
+  clear: both;
+  border: none;
+}
+a{
+  color: #000;
+}
+body{
+  background: #FFF;
+  margin: 0;
+}
+#container{
+  margin: 0 auto;
+  width: 970px;
+}
+
+#top_bar{
+  width: 970px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#style_choosing {
+  margin-top: 0px;
+  width: 320px;
+  height: 30px;
+  position: relative;
+}
+#style_choosing .tip {
+  position: absolute;
+  bottom: -35px;
+  left: 120px;
+  z-index: 2;
+  background: #FFF;
+  padding: 3px;
+  border: 1px solid #BDBDBD;
+}
+#backto_home {
+  float: left;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 15px;
+  padding-left: 30px;
+  background: url(../images/icons/home_icon.png) 1px 0px no-repeat;
+}
+
+#top_bar .style_btn {
+  border: 1px solid #000;
+  display: block;
+  float: left;
+  margin-right: 8px;
+  margin-top: 10px;
+  width: 20px; height: 20px;
+  cursor: pointer;
+}
+
+#yellow_style{
+  background: #F4CE2F;
+}
+
+#red_style{
+  background: #F9C9D5;
+}
+
+#blue_style{
+  background: #D3E6F5;
+}
+
+#white_style{
+  background: #FFFDE4;
+}
+
+#top_menus {
+  float: right;
+}
+
+#top_menus li {
+  display: inline;
+}
+
+#top_menus li a {
+  display: block;
+  padding: 10px;
+  float: left;
+  margin-right: 10px;
+  text-decoration: none;
+  background: #FF8800;
+  color: #FFF;
+  border: 1px solid #FF5500;
+  border-top: none;
+}
+
+#nav{
+  position: relative;
+}
+
+#nav .inner{
+  position: absolute;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+#index_slides {
+    z-index: 998;
+    margin-bottom: 10px;
+    height: 310px;
+    position: relative;
+}
+
+#index_slides .slides_container {
+  height: 310px;
+}
+
+#index_slides .pagination {
+  position: absolute;
+  right: 5px;
+  bottom: 3px;
+  z-index: 1000;
+}
+
+#index_slides .pagination li{
+  display: block;
+  float: left;
+  margin-right: 6px;
+}
+
+#index_slides .pagination a {
+  border: 1px solid #FFF;
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #FFF;
+  background: #FF9900;
+}
+
+#index_slides .pagination a:hover {
+  background: #FF7700;
+  color: #BDBDBD;
+}
+
+#slogan {
+  margin-top: 250px;
+}
+
+#slogan .inner{
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+#slogan .inner2 {
+  font: bold 26px "Lucida Grande";
+   color: #464646;
+}
+
+#main{
+  position: relative;
+  z-index: 2;
+}
+.bar_connection {
+  height: 40px;
+  position: relative;
+
+}
+
+.bar_connection .t {
+  height: 20px;
+  background: #FFF;
+  display: block;
+}
+
+.bar_connection .b {
+  height: 20px;
+  background: #FFF;
+  display: block;
+  margin-bottom: 20px;
+
+}
+
+.bar_connection img {
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+#main .left_bar{
+  float: left;
+  width: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#main .center1{
+  float: left;
+  width: 530px;
+  margin-right: 10px;
+}
+
+#kaidun_famous_teacher {
+  width: 260px;
+  float: left;
+  margin-right: 10px;
+}
+
+#kaidun_month_star {
+  width: 260px;
+  float: left;
+}
+
+#main .right_bar{
+  float: right;
+  width: 200px;
+  margin-right: 10px;
+
+}
+.box {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.box a {
+  text-decoration: none;
+}
+
+.box a:hover {
+  margin-left: 2px;
+  text-decoration: underline;
+}
+.box em.icon {
+  position: absolute;
+  left: -2px;
+  top: -4px;
+}
+.box h3 {
+  background-color: #B0373C;
+  color: #FFF;
+}
+
+.box h3 span {
+  display: block;
+  float: right;
+  font-size: 80%;
+}
+
+.box h3 .inner {
+  padding: 5px;
+  padding-left: 37px;
+}
+
+.box div.m{
+  padding: 9px;
+}
+
+.box div.m img{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.box ul {
+  background: #FFF;
+}
+.box ul li {
+  padding: 8px;
+  border-bottom: 1px dashed #BDBDBD;
+}
+
+.center1 .box h3 {
+  background: #552F18;
+}
+
+.center1 .box ul {
+  background: transparent;
+}
+
+.center1 .box h3 .inner span a {
+  color: #FFF;
+}
+
+
+#kaidun_notices {
+}
+
+
+#kaidun_news, #kaidun_activity {
+  width: 460px;
+}
+
+#company_partner li img {
+  margin-left: 15px;
+}
+
+#company_partner li a:hover {
+  padding-left: 2px;
+  padding-top: 2px;
+}
+
+#footer{
+  margin-top: 20px;
+  background: #552F18;
+  color: #FFF;
+}
+
+#footer .inner {
+  padding: 10px;
+  text-align: center;
+}
