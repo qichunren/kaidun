@@ -72,10 +72,41 @@ body{
     z-index: 998;
     margin-bottom: 10px;
     height: 310px;
+    position: relative;
 }
 
 #index_slides .slides_container {
   height: 310px;
+}
+
+#index_slides .pagination {
+  position: absolute;
+  right: 5px;
+  bottom: 3px;
+  z-index: 1000;
+}
+
+#index_slides .pagination li{
+  display: block;
+  float: left;
+  margin-right: 6px;
+}
+
+#index_slides .pagination a {
+  border: 1px solid #FFF;
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #FFF;
+  background: #FF9900;
+}
+
+#index_slides .pagination a:hover {
+  background: #FF7700;
+  color: #BDBDBD;
 }
 
 #slogan {
@@ -189,6 +220,11 @@ body{
 
 #company_partner li img {
   margin-left: 15px;
+}
+
+#company_partner li a:hover {
+  padding-left: 2px;
+  padding-top: 2px;
 }
 
 #footer{
