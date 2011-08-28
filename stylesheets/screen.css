@@ -191,6 +191,10 @@ body{
   background: #552F18;
 }
 
+.center1 .box ul {
+  background: transparent;
+}
+
 #kaidun_news, #kaidun_activity {
   width: 460px;
 }
