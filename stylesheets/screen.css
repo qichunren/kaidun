@@ -265,7 +265,7 @@ body{
   float: left;
 }
 .box {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   position: relative;
 }
 
@@ -311,6 +311,7 @@ body{
 .box ul {
   background: #FFF;
   margin: 0 4px;
+  padding-bottom: 15px;
 }
 
 .box ul li {
@@ -336,6 +337,10 @@ body{
 
 #kaidun_news, #kaidun_activity {
   width: 460px;
+}
+
+#preview_video {
+  margin-bottom: 10px;
 }
 
 #company_partner li img {
