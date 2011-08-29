@@ -198,6 +198,10 @@ body{
   position: relative;
   z-index: 2;
 }
+
+#contact_kaidun {
+  margin-bottom: 0;
+}
 .bar_connection {
   height: 40px;
   position: relative;
@@ -221,6 +225,11 @@ body{
 .bar_connection img {
   margin-top: -10px;
   margin-left: 20px;
+}
+
+.bar_connection1 {
+  height: 15px;
+  background: #FFF;
 }
 
 #main .left_bar{
