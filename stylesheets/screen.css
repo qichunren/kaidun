@@ -202,6 +202,11 @@ body{
 #contact_kaidun {
   margin-bottom: 0;
 }
+
+#contact_kaidun ul {
+  padding-bottom: 15px;
+}
+
 .bar_connection {
   height: 40px;
   position: relative;
@@ -228,7 +233,7 @@ body{
 }
 
 .bar_connection1 {
-  height: 15px;
+  height: 25px;
   background: #FFF;
 }
 
@@ -280,7 +285,7 @@ body{
 .box em.icon {
   position: absolute;
   left: -2px;
-  top: -4px;
+  top: -12px;
 }
 .box h3 {
   background-color: #B0373C;
@@ -295,7 +300,7 @@ body{
 
 .box h3 .inner {
   padding: 5px;
-  padding-left: 37px;
+  padding-left: 40px;
 }
 
 .box div.m{
@@ -311,7 +316,7 @@ body{
 .box ul {
   background: #FFF;
   margin: 0 4px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 .box ul li {
