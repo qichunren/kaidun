@@ -210,6 +210,8 @@ body{
 .bar_connection {
   height: 40px;
   position: relative;
+  margin-left: 4px;
+  margin-right: 4px;
 
 }
 
@@ -235,6 +237,8 @@ body{
 .bar_connection1 {
   height: 25px;
   background: #FFF;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 #main .left_bar{
@@ -269,6 +273,7 @@ body{
   width: 260px;
   float: left;
 }
+
 .box {
   margin-bottom: 0px;
   position: relative;
@@ -282,11 +287,13 @@ body{
   margin-left: 2px;
   text-decoration: underline;
 }
+
 .box em.icon {
   position: absolute;
   left: -2px;
   top: -12px;
 }
+
 .box h3 {
   background-color: #B0373C;
   color: #FFF;
