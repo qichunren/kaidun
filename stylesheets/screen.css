@@ -13,6 +13,7 @@ body{
 #container{
   margin: 0 auto;
   width: 970px;
+  position: relative;
 }
 
 #top_bar{
@@ -72,7 +73,10 @@ body{
 }
 
 #top_menus {
-  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index:4;
 }
 
 #top_menus li {
@@ -89,6 +93,22 @@ body{
   color: #FFF;
   border: 1px solid #FF5500;
   border-top: none;
+}
+
+#top_menus li a:hover {
+  padding-top: 15px;
+  color: #BDBDBD;
+}
+
+#top_notice {
+  position: absolute;
+  background: url(../images/icons/gonggao.jpg) no-repeat;
+  width: 230px;
+  height: 140px;
+  overflow: hidden;
+  z-index: 3;
+  top: 12px;
+  right: 0px;
 }
 
 #nav{
@@ -262,6 +282,7 @@ body{
 
 .box ul {
   background: #FFF;
+  margin: 0 4px;
 }
 .box ul li {
   padding: 8px;
@@ -307,4 +328,9 @@ body{
 #footer .inner {
   padding: 10px;
   text-align: center;
+}
+
+#footer .inner p {
+  padding: 10px;
+  font-size: 12px;
 }

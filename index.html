@@ -21,12 +21,15 @@
                    <li ><a class="corner_bottom" href="#" title="">免费活动预约</a></li>
                </ul>
            </div><!-- End: #top_menus -->
+           <div id="top_notice">
+              <div class="inner"><!-- content --></div>
+           </div>
             <div id="style_choosing">
                 <div id="backto_home">回首页</div>
-                <span id="yellow_style" class="style_btn" theme='yellow'></span>
-                <span id="red_style"    class="style_btn" theme='red'></span>
-                <span id="blue_style"   class="style_btn" theme='blue'></span>
-                <span id="white_style"  class="style_btn" theme='white'></span>
+                <span id="yellow_style" class="style_btn" theme='yellow' title="黄"></span>
+                <span id="red_style"    class="style_btn" theme='red' title="粉红"></span>
+                <span id="blue_style"   class="style_btn" theme='blue' title="粉蓝"></span>
+                <span id="white_style"  class="style_btn" theme='white' title="米白"></span>
                 <span class="tip">What color do you like?</span>
             </div><!-- End: #style_choosing -->
         </div><!-- #End: #top_bar -->
@@ -176,7 +179,7 @@
 
         <div id="footer">
             <div class="inner">
-                &copy; 2011
+                <p>Copyrgiht &copy; 2011 上海凯顿儿童美语 All Rights Reserved. 地址：徐家汇苍梧路10号三栋306 联系电话：4006-117-668</p>
             </div>
         </div><!-- End: #footer -->
         </div><!-- End: #container -->
@@ -187,7 +190,7 @@
         <script src="javascripts/jquery.corner.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                if($.cookie('current_theme') != "null"){
+                if($.cookie('current_theme') != null){
                     $("#theme_css").attr("href", "stylesheets/" + $.cookie('current_theme') + ".css");
                 }
 
@@ -206,7 +209,7 @@
 
 
 
-                $(".corner_it").corner();
+                $(".corner_it").corner("6px");
                 $(".corner_bottom").corner("bottom");
                 $('marquee').marquee();
 
