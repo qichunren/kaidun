@@ -371,6 +371,16 @@ body{
   left: 25px;
 }
 
+#backto_top{
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  cursor: pointer;
+  border: 1px solid #BDBDBD;
+  background: #FFF;
+  padding: 3px;
+}
+
 #footer{
   margin-top: 20px;
   background: #552F18;
