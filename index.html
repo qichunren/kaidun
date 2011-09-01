@@ -190,7 +190,9 @@
         <embed src="images/dan.swf" width="190" height="160" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
       </object>
            </span>
-        </div><!-- #End #dan -->
+        </div><!-- #End #egg -->
+
+        <div id="backto_top">Back to top.</div>
 
         <div id="footer">
             <div class="inner">
@@ -208,6 +210,11 @@
                 if($.cookie('current_theme') != null){
                     $("#theme_css").attr("href", "stylesheets/" + $.cookie('current_theme') + ".css");
                 }
+
+
+                $("#backto_top").click(function(){
+                       jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );
+                });
 
                 $('#index_slides').slides({
                                 preload: true,
