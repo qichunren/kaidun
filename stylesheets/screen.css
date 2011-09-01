@@ -200,6 +200,41 @@ body{
   z-index: 2;
 }
 
+
+.crumbs .inner{
+  background: #FFF url(../images/icons/dianhua.png) no-repeat 1px 3px;
+  margin-right: 10px;
+  padding: 3px;
+  margin-bottom: 10px;
+  height: 35px;
+  line-height: 35px;
+}
+.crumbs ul {
+  margin-left: 70px;
+}
+.crumbs li {
+  display: inline;
+}
+
+.crumbs li a {
+  font-weight: bold;
+  display: block;
+  float: left;
+  padding: 4px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.crumbs li a:hover {
+  text-decoration: underline;
+}
+
+.crumbs span.current {
+  display: block;
+  padding-right: 10px;
+  float: right;
+}
+
 #contact_kaidun {
   margin-bottom: 0;
 }
