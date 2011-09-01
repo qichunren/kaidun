@@ -368,6 +368,7 @@ body{
   position: absolute;
   bottom: 36px;
   left: 25px;
+  z-index: 9999;
 }
 
 #footer{
@@ -385,3 +386,20 @@ body{
   padding: 10px;
   font-size: 12px;
 }
+
+
+
+/* teachers page style */
+.teacher {
+  width: 360px;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 6px;
+}
+
+.teachers img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* End teachers */
